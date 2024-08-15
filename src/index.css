@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  border-color: #3b3b3b;
+  background-color: #000;
+  color: #eaeaea;
+}
+
+
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}
+
+
+
+@layer utilities {
+
+  .flex-center {
+  @apply flex items-center justify-center
+  }
+
+  .nav-height {
+  @apply h-[calc(100vh-60px)]
+
+  }
+  .hero-title {
+  @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
+  }
+  .hero-shadow {
+    filter : drop-shadow( #8ba888 0.5rem 0.5rem 1rem)
+  }
+
+  .card-con{
+    @apply relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96
+
+  }
+
+  .card-img{
+    @apply relative h-56 mx-4 overflow-hidden text-white bg-clip-border rounded-xl
+  }
+
+  .card-h{
+    @apply block mb-2 text-xl antialiased font-semibold
+  }
+
+  .card-test{
+    @apply block text-base font-light antialiased leading-relaxed text-inherit
+  }
+
+  .nav-bar-isopen{
+    @apply top-[80px] opacity-75 z-10
+  }
+}
