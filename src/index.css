@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxygen:wght@300;400;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,24 +48,37 @@ body {
     filter : drop-shadow( #8ba888 0.5rem 0.5rem 1rem)
   }
 
-  .card-con{
-    @apply relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96
-
-  }
-
-  .card-img{
-    @apply relative h-56 mx-4 overflow-hidden text-white bg-clip-border rounded-xl
-  }
-
-  .card-h{
-    @apply block mb-2 text-xl antialiased font-semibold
-  }
-
-  .card-test{
-    @apply block text-base font-light antialiased leading-relaxed text-inherit
-  }
-
   .nav-bar-isopen{
     @apply top-[80px] opacity-75 z-10
   }
+
+  .card{
+    @apply flex flex-col md:flex-row flex-center 
+  }
+
+  .card-item{
+    @apply flex flex-col my-2 p-5 bg-slate-100 text-black  text-wrap md:h-2/3 md:w-1/4 h-3/4 w-2/4 border-green-700 border-solid border-4 text-center rounded-lg md:mx-8 snap-mandatory snap-x 
+  }
+
+  .main-proid{
+    @apply border-solid border-4 bg-white border-white m-10 snap-center 
+  }
+
+  .img-proid{
+    @apply w-64 h-64 text-white bg-black m-2 p-2
+  }
+
+  .img-proidChild{
+    @apply w-64 h-64 bg-opacity-75  
+  }
+
+  .info-proid{
+    @apply text-black w-64 h-20 border-solid border-y-4 m-2 p-2 border-white
+  }
+
+  .techNav{
+    @apply h-20 w-20 content-center m-5 
+  }
+ 
 }
+

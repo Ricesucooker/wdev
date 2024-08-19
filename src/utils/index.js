@@ -10,9 +10,17 @@ import svgTickT from "../assets/images/icons8-tiktok.svg";
 import svgTwX from "../assets/images/icons8-twitter.svg";
 import svgYT from "../assets/images/icons8-youtube.svg";
 import myImg from "../assets/images/wming.JPG";
-import myLin from "../assets/images/icons8-linkedin.svg"
-import myLogo from "../assets/images/W.png"
-import myNavbar from "../assets/images/navbar.svg"
+import myLin from "../assets/images/icons8-linkedin.svg";
+import myLogo from "../assets/images/W.png";
+import myNavbar from "../assets/images/navbar.svg";
+import heartSVG from "../assets/images/heart.svg";
+import awsicon from "../assets/images/awsicon.svg";
+import azureicon from "../assets/images/azureicon.svg";
+import cssicon from "../assets/images/cssicon.svg";
+import htmlicon from "../assets/images/htmlicon.svg";
+import jsicon from "../assets/images/jsicon.svg";
+import mysqlicon from "../assets/images/mysql.svg";
+import reacticon from "../assets/images/reacticon.svg";
 
 
 export const myPic = myImg;
@@ -25,18 +33,20 @@ export const iconTickT = svgTickT;
 export const iconTwX = svgTwX ;
 export const iconYT = svgYT;
 export const iconLkin = myLin;
+export const svgHeart = heartSVG;
 export const iconNav =myNavbar;
 export const myWlogo =myLogo;
+export const awsSVG = awsicon;
+export const azureSVG = azureicon;
+export const cssSVG = cssicon;
+export const htmlSVG = htmlicon;
+export const jsSVG = jsicon;
+export const mysqllSVG = mysqlicon;
+export const reactSVG = reacticon;
 
-//Models 
-import anime3D from "../assets/model/animeModel.glb";
-
-export const girl3D = anime3D;
 
 //Video 
 
-import vidHero from "../assets/video/cMacvid.mp4";
 import Top3dVideo from "../assets/video/top3D.mp4";
 
 export const mp4Top3D = Top3dVideo;
-export const mp4Hero = vidHero;

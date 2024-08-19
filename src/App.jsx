@@ -3,18 +3,19 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Highlights from "./components/Highlights";
 import Footer from "./components/Footer";
-import Overlay from "./components/Overlay";
+import Preloader from "./components/Preloader";
 
 const App = () => {
-
+ 
 
   return (
     <>
     <main>
+      <Preloader />
       <Navbar />
       <Hero />
-      <Highlights />
       <About />
+      <Highlights />
       <Footer />
     </main>
 

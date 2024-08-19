@@ -2,7 +2,7 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <section >
+    
 
     <div className='relative flex space-y-4 mx-24 md:space-x-10 md:w-full'>
         
@@ -42,7 +42,7 @@ const Timeline = () => {
          </div>
     
     </div>
-    </section>
+
   )
 }
 

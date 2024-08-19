@@ -1,50 +1,79 @@
-import React from 'react'
+import { useRef, React } from 'react';
+import { svgHeart, chibipngIMG } from '../utils';
+
 
 const Highlights = () => {
+
+
   return (
-    <section id="higlights" className='w-full h-full relative'>
-    <div> 
-      <h2 className=' flex-center'>Welcome to my highlights</h2>
+  <section className='w-full' id='Project' >
 
-      <div id='projec ' className='w-full h-full flex m-8 p-8 flex-center'> 
-       
-        <div id='p1' className='card-con p-2.5 m-4 w-1/3 h-64' >
-          <div className='card-h'>
-            Show case 1 
-          </div>
-          <div className='card-text'>
-            this is project 1
-          </div>
-        </div>
-        <div id='p2' className='card-con p-2.5 m-4 w-1/3 h-64' >
-          <div className='card-h'>
-            Show case 2 
-          </div>
-          <div className='card-text'>
-            this is project 2
-          </div>
-        </div>
+  <div className='flex '>
+      <div className='w-full h-fit relative'>
 
-        <div id='p3' className='card-con p-2.5 m-4 w-1/3 h-64' >
-          <div className='card-h'>
-            Show case 3 
-          </div>
-          <div className='card-text'>
-            this is project 3
-          </div>
-        </div>
+        <div className="flex-center font-semibold text-6xl m-8"> !Picture-Project <span>˙✧˖°📷 ༘ ⋆｡° </span></div>
 
-        <div id='p3' className='card-con p-2.5 m-4 w-1/3 h-64' >
-          <div className='card-h'>
-            Show case 4 
-          </div>
-          <div className='card-text'>
-            this is project 4
-          </div>
-        </div>
+    
+        <div className='flex md:justify-around overflow-auto md:overflow-x-auto'>
 
+         <div className="main-proid ">
+          <div className="img-proid ">
+            <img className='img-proidChild' src={chibipngIMG} alt="2d Top" />
+
+          </div>
+          <div className="info-proid  ">
+          <span> <img src={svgHeart} alt="heart icon" height={15} width={15}  /></span>
+         Soon to come...
+          </div>
+         </div>
+
+         <div className="main-proid ">
+          <div className="img-proid ">
+          <img className='img-proidChild' src={chibipngIMG} alt="2d Top" />
+
+          </div>
+          <div className="info-proid ">
+          <span> <img src={svgHeart} alt="heart icon" height={15} width={15}  /></span>
+          Soon to come...
+          </div>
+         </div>
+
+
+
+         <div className="main-proid ">
+          <div className="img-proid ">
+          <img className='img-proidChild' src={chibipngIMG} alt="2d Top" />
+          </div>
+
+          <div className="info-proid ">
+          <span> <img src={svgHeart} alt="heart icon" height={15} width={15}  /></span>
+          Soon to come...
+          </div>
+         </div>
+
+
+
+
+         <div className="main-proid ">
+          <div className="img-proid ">
+          <img className='img-proidChild' src={chibipngIMG} alt="2d Top" />
+
+          </div>
+          <div className="info-proid ">
+            <span> <img src={svgHeart} alt="heart icon" height={15} width={15}  /></span>
+          Soon to come...
+          </div>
+         </div>
+
+
+
+         
+         
+
+        </div>
+    
       </div>
-    </div>
+   </div>
     </section>
   )
 }

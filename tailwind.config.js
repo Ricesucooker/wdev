@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Oxygen", "sans-serif"],
+      },
       colors:{
         blue: "#2997FF",
         gray:{
