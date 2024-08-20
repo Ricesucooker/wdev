@@ -64,10 +64,6 @@ const Highlights = () => {
           Soon to come...
           </div>
          </div>
-
-
-
-         
          
 
         </div>

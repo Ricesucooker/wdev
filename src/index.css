@@ -19,7 +19,6 @@ body {
   border-color: #3b3b3b;
   background-color: #000;
   color: #eaeaea;
-  scroll-behavior: smooth;
 
 }
 
@@ -59,7 +58,7 @@ body {
   }
 
   .card-item{
-    @apply flex flex-col my-2 p-5 bg-slate-100 text-black  text-wrap md:h-2/3 md:w-1/4 h-3/4 w-2/4 border-green-700 border-solid border-4 text-center rounded-lg md:mx-8 snap-mandatory snap-x 
+    @apply flex flex-col my-2 p-5 bg-slate-100 text-black  text-wrap md:h-2/3 md:w-1/4 h-3/4 w-2/4 border-solid border-4 text-center rounded-lg md:mx-8 snap-mandatory snap-x 
   }
 
   .main-proid{
