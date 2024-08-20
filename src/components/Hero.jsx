@@ -1,9 +1,9 @@
-
 import { mp4Top3D, iconGihub, iconLkin} from "../utils";
 
 
 
 const Hero = () => {
+
 
   return (
   
@@ -11,9 +11,9 @@ const Hero = () => {
         <div className='flex size-full flex-center flex-col'>
 
             <div className="flex flex-col flex-centermd:flex-row flex-wrap cursor-default " >
-            <h1 className="font-bold text-6xl md:w-full text-center z-[2] mt-10">Woraphong Mingsong</h1>
+            <h1 id="myName" className="font-bold text-6xl md:w-full text-center z-[2] mt-10"> Woraphong Mingsong </h1>
 
-              <div className=" screen-max-width  ">
+              <div className="screen-max-width  ">
                 <video autoPlay loop muted playsInline={true} key={{mp4Top3D}}> 
                 <source className="z-[1]" src={mp4Top3D} type="video/mp4"  /> 
                   Your browser doesn not support the video tag </video>  

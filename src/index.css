@@ -19,6 +19,8 @@ body {
   border-color: #3b3b3b;
   background-color: #000;
   color: #eaeaea;
+  scroll-behavior: smooth;
+
 }
 
 
@@ -69,11 +71,11 @@ body {
   }
 
   .img-proidChild{
-    @apply w-64 h-64 bg-opacity-75  
+    @apply w-64 h-64 bg-opacity-75 blur-sm opacity-30 grayscale
   }
 
   .info-proid{
-    @apply text-black w-64 h-20 border-solid border-y-4 m-2 p-2 border-white
+    @apply text-black w-64 h-20 border-solid border-y-4 m-2 p-2 border-white opacity-75
   }
 
   .techNav{
