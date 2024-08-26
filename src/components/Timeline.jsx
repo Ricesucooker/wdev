@@ -10,7 +10,7 @@ const Timeline = () => {
 
             <div className='border-s-4 p-5'>
                 <p className='font-bold text-3xl'>ConnectWise</p>
-                <p className='text-xl font-semibold'>L2 Software Support Sepcialist | JUL 2023 -  Present</p> 
+                <p className='text-xl font-semibold'>L2 Software Support Specialist | JUL 2023 -  Present</p> 
                     <div  className=' flex flex-col font-extralight text-xs '>
                     <p>Deliver product support for ConnectWise Automate, including troubleshooting and debugging.</p>
                     <p>Handle MySQL database administration and rebuilds for both cloud and on-premises systems.</p>
