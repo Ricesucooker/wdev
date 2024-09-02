@@ -21,7 +21,7 @@ import htmlicon from "../assets/images/htmlicon.svg";
 import jsicon from "../assets/images/jsicon.svg";
 import mysqlicon from "../assets/images/mysql.svg";
 import reacticon from "../assets/images/reacticon.svg";
-
+import pyicon from "../assets/images/pyicon.svg"
 
 export const myPic = myImg;
 export const chibiwbSVG = wbchibiSVG;
@@ -43,6 +43,7 @@ export const htmlSVG = htmlicon;
 export const jsSVG = jsicon;
 export const mysqllSVG = mysqlicon;
 export const reactSVG = reacticon;
+export const pySVG = pyicon;
 
 
 //Video 

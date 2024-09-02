@@ -1,5 +1,5 @@
 import React from 'react'
-import { reactSVG,azureSVG,htmlSVG,cssSVG,jsSVG,mysqllSVG,awsSVG } from '../utils'
+import { reactSVG,azureSVG,htmlSVG,cssSVG,jsSVG,mysqllSVG,awsSVG, pySVG } from '../utils'
 
 const Teckstack = () => {
   return (
@@ -21,6 +21,9 @@ const Teckstack = () => {
         </div>
         <div className=' techNav'>
             <img src={jsSVG} alt="JavaScript icon" />
+        </div>
+        <div className=' techNav'>
+            <img src={pySVG} alt="JavaScript icon" />
         </div>
         <div className=' techNav'>
             <img src={mysqllSVG} alt="mysql icon" />

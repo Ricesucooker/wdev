@@ -1,12 +1,13 @@
-import { useRef, React } from 'react';
+import { useState, React } from 'react';
 import { svgHeart, chibipngIMG } from '../utils';
 
 
 const Highlights = () => {
 
+  
 
   return (
-  <section className='w-full' id='Project' >
+  <section className='w-full ' id='Project' >
 
   <div className='flex '>
       <div className='w-full h-fit relative'>

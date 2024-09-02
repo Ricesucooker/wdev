@@ -45,6 +45,7 @@ body {
   .hero-title {
   @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
   }
+
   .hero-shadow {
     filter : drop-shadow( #8ba888 0.5rem 0.5rem 1rem)
   }
@@ -80,6 +81,6 @@ body {
   .techNav{
     @apply h-20 w-20 content-center m-5 
   }
- 
+
 }
 

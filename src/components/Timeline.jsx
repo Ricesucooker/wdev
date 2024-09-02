@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+
+
 
 const Timeline = () => {
+
+
   return (
     
 
-    <div className='relative flex space-y-4 mx-24 md:space-x-10 md:w-full'>
+    <div id='tline' className='relative flex space-y-4 mx-24 md:space-x-10 md:w-full'>
         
-        <div className='flex-col flex relative flex-1  '>
+        <div className='flex-col flex relative flex-1  text-wrap '>
 
             <div className='border-s-4 p-5'>
                 <p className='font-bold text-3xl'>ConnectWise</p>
