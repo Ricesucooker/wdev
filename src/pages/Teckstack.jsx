@@ -3,7 +3,7 @@ import { reactSVG,azureSVG,htmlSVG,cssSVG,jsSVG,mysqllSVG,awsSVG, pySVG } from '
 
 const Teckstack = () => {
   return (
-    <div className='flex w-full space-x-10 flex-center flex-wrap '>
+    <div className='flex w-full space-x-4 flex-center flex-wrap '>
         <div className='techNav'>
             <img src={awsSVG} alt="AWS icon" />
         </div>

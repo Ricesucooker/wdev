@@ -9,16 +9,18 @@ const Navbar = () => {
   const toggleMenu =() => {
     setIsOpen((open) => !open)
   };
+
+
   return (
-    <header >
+    <header className='fixed w-full z-50' >
      
         <nav className='p-5 bg-white md:flex md:items-center md:justify-between ' >
           <div className='flex justify-between items-center '>
             <span className=' text-2xl text-black cursor-default '><img className='h-10 inline' src={myWlogo} alt='W-logo' />.Dev</span>
-
             <span className=' md:hidden block'>
-              <img className='h-10 mx-5' onClick={toggleMenu} src={iconNav} />
+              <img id='navMenu' className='h-10 mx-5' onClick={toggleMenu} src={iconNav} />
             </span>
+
           </div>
             <ul className={`md:flex md:items-center z-50 md:z-20 md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ${isOpen ? "nav-bar-isopen" : ""} `}>
               <li className='mx-4 my-6 md:my-0'><a href='#Hero' className='text-xl text-black hover:text-green-600 duration-500' >Home</a></li>

@@ -1,26 +1,20 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Highlights from "./components/Highlights";
-import Footer from "./components/Footer";
+import Hero from "./pages/Hero";
+import About from "./pages/About";
+import Highlights from "./pages/Highlights";
+import Footer from "./pages/Footer";
+import Loadingscreen from "./components/Loadingscreen";
+import { useEffect, useState } from "react";
 
 
 const App = () => {
-
-  const observer = new IntersectionObserver((entries)=>{
-    entries.forEach((entry) =>{
-      console.log(entry)
-      if(entry.isIntersecting){
-        entry.target.classList.add('show');
-      }else{
-        entry.target.classList.remove('show')
-      }
-
-    });
-  });
-
-  const hiddenElements = document.querySelectorAll('hide');
-  hiddenElements.forEach((el) => observer.observe(el));
+  const [loading, setLoading] =useState(true)
+    useEffect(()=> {
+      setTimeout(() => setLoading(false), 3300)
+    }, [])
+    if (loading){
+      return <Loadingscreen />
+    }
 
   return (
     <>

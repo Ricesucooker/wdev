@@ -1,0 +1,56 @@
+.greetings{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.greetings::before{
+    content: 'Hello';
+    -webkit-animation-name: greetings;
+    -webkit-animation-duration: 10s;
+    animation-name: greetings;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes greetings {
+  0%{
+    content: 'HELLO';
+  }
+  10%{
+    content: '你好 ';
+  }
+  20%{
+    content:'こんにちは';
+  }
+  30%{
+    content:'Xin chào';
+  }
+  40%{
+    content: 'สวัสดีครับ';
+  }
+  50%{
+    content: '안녕하세요 ';
+  }
+  50%{
+    content: 'BONJOUR';
+  }
+  60%{
+    content: 'HALLO';
+  }
+  70%{
+    content:'CIAO';
+  }
+  80%{
+    content: 'Hola';
+  }
+  90%{
+    content: ' नमस्ते ';
+  }
+  100%{
+    content: 'مرحبا ';
+  }
+
+}
